@@ -74,8 +74,6 @@ port_selection = str(system_ports[user_selected_port])
 s = serial.Serial(port_selection, baudrate = user_baud_rate, timeout = 1)
 time.sleep(1)
 
-data = s.readline()
-s.write("H\n".encode('utf-8'))
 program_running = True
 
 while program_running:
