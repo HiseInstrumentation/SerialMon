@@ -8,8 +8,9 @@ Requirements:
 
 
 Usage:
-	python3 ./monitor.py
-
+```
+python3 ./monitor.py
+```
 
 1. Select the port you which to listen in on
 2. Enter the baud rate, leaving blank will default to 9600
