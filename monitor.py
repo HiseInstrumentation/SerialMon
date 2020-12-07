@@ -21,6 +21,7 @@ import re
 import os
 import time
 
+
 selected_port = None
 user_port = None
 system_ports = []
