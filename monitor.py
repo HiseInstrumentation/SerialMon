@@ -21,12 +21,11 @@ import re
 import os
 import time
 
-
 selected_port = None
 user_port = None
 system_ports = []
 
-# Load the existing serial ports into global list
+# Load the existing serial ports into global list for user to select later
 def initialize():
 	for n, (port, desc, hwid) in enumerate(sorted(list_ports.comports()), 1):
 		system_ports.append(port)
