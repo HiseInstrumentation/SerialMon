@@ -44,7 +44,7 @@ def selectPort():
 
 	return int(selected_port) - 1
 
-# Clear the terminal
+# Clear the terminal, OS dependent
 def clearTerminal():
 	os.system('cls' if os.name == 'nt' else 'clear')
 
