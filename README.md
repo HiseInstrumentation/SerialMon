@@ -6,7 +6,6 @@ The Serial Monitor is a simple utility for reading output from a serial port, su
 Requirements:
 	python3
 
-
 Usage:
 ```
 python3 ./monitor.py
