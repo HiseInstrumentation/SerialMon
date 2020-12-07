@@ -21,3 +21,5 @@ Send Serial output directly to terminal
 
 Stream to file:
 Send Serial output to terminal and specifid file
+
+Hise Scientitic Instrumentation, LLC
